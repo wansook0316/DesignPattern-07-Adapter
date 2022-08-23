@@ -10,7 +10,7 @@ import Foundation
 internal struct Dog: Animal {
 
     internal func sound() {
-        print("\(self.name)이 왕옹앙 짖어요")
+        print("\(self.name) 왕옹앙 짖어요")
     }
 
     internal let name: String

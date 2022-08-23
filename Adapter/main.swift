@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+internal func main() {
 
+    let user = User(animals: [Dog(name: "까미"), Cat(name: "봉삼이"), Cat(name: "쭈꾸미")])
+
+    user.barkEveryAnimals()
+    
+}
+
+main()

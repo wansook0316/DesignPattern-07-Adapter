@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+internal struct User {
+
+    internal func barkEveryAnimals() {
+        self.animals
+            .forEach { $0.sound() }
+    }
+    
+    internal let animals: [Animal]
+
+}
