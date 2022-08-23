@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE37A00128B44DA500A85315 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A00028B44DA500A85315 /* main.swift */; };
+		CE37A00B28B457C600A85315 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A00A28B457C600A85315 /* Animal.swift */; };
+		CE37A00E28B457E800A85315 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A00D28B457E800A85315 /* Dog.swift */; };
+		CE37A01028B457EE00A85315 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A00F28B457EE00A85315 /* Cat.swift */; };
+		CE37A01228B457FB00A85315 /* TigerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A01128B457FB00A85315 /* TigerAdapter.swift */; };
+		CE37A01428B4583100A85315 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A01328B4583100A85315 /* User.swift */; };
+		CE37A01628B4583800A85315 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37A01528B4583800A85315 /* Tiger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		CE379FFD28B44DA500A85315 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE37A00028B44DA500A85315 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE37A00A28B457C600A85315 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		CE37A00D28B457E800A85315 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		CE37A00F28B457EE00A85315 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		CE37A01128B457FB00A85315 /* TigerAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerAdapter.swift; sourceTree = "<group>"; };
+		CE37A01328B4583100A85315 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE37A01528B4583800A85315 /* Tiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,31 @@
 		CE379FFF28B44DA500A85315 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				CE37A00928B457BB00A85315 /* Interfaces */,
+				CE37A00C28B457D800A85315 /* Implementations */,
+				CE37A01528B4583800A85315 /* Tiger.swift */,
+				CE37A01328B4583100A85315 /* User.swift */,
 				CE37A00028B44DA500A85315 /* main.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CE37A00928B457BB00A85315 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CE37A00A28B457C600A85315 /* Animal.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		CE37A00C28B457D800A85315 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				CE37A00D28B457E800A85315 /* Dog.swift */,
+				CE37A00F28B457EE00A85315 /* Cat.swift */,
+				CE37A01128B457FB00A85315 /* TigerAdapter.swift */,
+			);
+			path = Implementations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE37A01028B457EE00A85315 /* Cat.swift in Sources */,
 				CE37A00128B44DA500A85315 /* main.swift in Sources */,
+				CE37A01428B4583100A85315 /* User.swift in Sources */,
+				CE37A01628B4583800A85315 /* Tiger.swift in Sources */,
+				CE37A00B28B457C600A85315 /* Animal.swift in Sources */,
+				CE37A00E28B457E800A85315 /* Dog.swift in Sources */,
+				CE37A01228B457FB00A85315 /* TigerAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
