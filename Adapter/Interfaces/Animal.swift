@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+internal protocol Animal {
+
+    var name: String { get }
+
+    func sound()
+
+}
