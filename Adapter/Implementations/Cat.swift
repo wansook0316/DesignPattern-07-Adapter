@@ -10,7 +10,7 @@ import Foundation
 internal struct Cat: Animal {
 
     internal func sound() {
-        print("\(self.name) 야옹야옹 울어요")
+        print("\(self.name) 야옹야옹")
     }
 
     internal let name: String
